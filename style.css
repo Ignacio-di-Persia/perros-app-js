@@ -2,7 +2,7 @@ h1{
     text-align: center;
 }
 
-form{
+.buscador{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -22,7 +22,7 @@ input{
     text-align: center;
 }
 
-div{
+.contenedor-resultados{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
