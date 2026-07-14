@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafío 1</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>App de perros</h1>
+    <form action="https://dog.ceo/api/breeds/image/random" method="GET"> <!-- Esto no esta bien -->
+      <label for="raza">Buscador de fotos por raza:</label>
+      <input id="raza" type="text" placeholder="¿Qué raza estás buscando?"/>
+      <button type="submit">Buscar</button>
+    </form>
+    <div id="contenedor-resultados">
+        
+    </div>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; /* Centrado de los items dentro del contenedor flex en la dirección del eje principal fijado por flex-direction */
+    align-items: center; /* Centrado de los items dentro del contenedor flex en la dirección del eje secundario */
+    column-gap: 10px;
+}
+
+button{
+    flex-grow: 1;
+}
+
+input{
+    flex-grow: 1;
+    /*flex-shrink: ; Permite que se achique*/
+    /*flex-basis: ; Tamaño base*/
+    text-align: center;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+img{
+    flex: 1;
+}
