@@ -22,14 +22,13 @@ input{
     text-align: center;
 }
 
-.contenedor-resultados{
+#contenedor-resultados{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 20px;
 }
 
 img{
-    flex: 1;
+    flex: 1; /* flex-grow: 1; flex-shrink: 1;  flex-basis: 0;*/
 }
